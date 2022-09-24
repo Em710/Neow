@@ -116,18 +116,6 @@ tgl = '%s %s %s' % (ha, op, ta)
 bulan_ttl = {'01': 'January', '02': 'February', '03': 'March', '04': 'April', '05': 'May', '06': 'June', '07': 'July', '08': 'August', '09': 'September', '10': 'October', '11': 'November', '12': 'December'}
 logo = 'Zee'
 
-        try:
-            open('login.txt', 'r')
-            menu()
-        except IOError:
-            login()
-
-    except:
-        sys.exit()
-        if name == '__main__':
-            mohammad()
-
-
 def clear():
     if ' linux' in sys.platform.lower():
         os.system('clear')
