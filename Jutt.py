@@ -1141,4 +1141,4 @@ def cek_folder_ok_cp():
 if __name__ == '__main__':
     os.system('touch login.txt')
     cek_folder_ok_cp()
-    Login()
+    login()
